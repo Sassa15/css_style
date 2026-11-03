@@ -1,0 +1,52 @@
+/* Margin */
+
+img {
+    margin: auto;
+    width: 200px;
+    height: auto;
+}
+
+header h1 {
+    margin: auto;
+    text-align: center;
+    font-family: Georgia, 'Times New Roman', Times, serif, sans-serif;
+    color:cornflowerblue
+}
+
+header h2 {
+    margin: 30px;
+    text-align: center;
+    font-family: Georgia, 'Times New Roman', Times, serif, sans-serif;
+    color:darkslateblue
+}
+
+main h3 {
+    margin: 30px;
+    text-align: left;
+    font-family: Georgia, 'Times New Roman', Times, serif, sans-serif;
+    color:cornflowerblue
+}
+
+.background-footer {
+    background-color: lightblue;
+}
+
+title {
+    text-align: left;
+    margin: 30px;
+    font-family: Georgia, 'Times New Roman', Times, serif, sans-serif;
+    color:cornflowerblue
+}
+
+.card:hover {
+    background-color: lightyellow;
+}
+
+.background-image {
+    background-image: linear-gradient(rgba(255, 255, 255, 0.6), rgba(255, 255, 255, 0.6)),
+    url("./media/Stitch.jpeg");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
